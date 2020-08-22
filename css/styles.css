@@ -1,0 +1,60 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+}
+
+/* ______________Общее форматирование_____________ */
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* __________________ Логотип ___________________ */
+.logo {
+  font-family: Raleway, sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo > span {
+  color: var(--accent-text-color);
+}
+
+/* __________________ Навигация в шапке ____________*/
+.link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+}
+.link:hover {
+  color: var(--accent-text-color);
+}
+.link:active {
+  color: var(--accent-text-color);
+}
+.contacts {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts:hover {
+  color: var(--accent-text-color);
+}
+.contacts:active {
+  color: var(--accent-text-color);
+}
