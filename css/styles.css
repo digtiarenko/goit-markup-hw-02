@@ -156,7 +156,10 @@ footer p {
 .gray-button:hover {
   color: #ffffff;
   background-color: var(--accent-text-color);
-}
+  }
+  .gray-button:active {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
 
 /* __________________Примеры работ_________________ */
 .portfolio h2 {
