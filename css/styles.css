@@ -41,7 +41,7 @@ ul {
 .link:hover {
   color: var(--accent-text-color);
 }
-.link:active {
+.link:focus {
   color: var(--accent-text-color);
 }
 .contacts {
@@ -56,7 +56,7 @@ ul {
 .contacts:hover {
   color: var(--accent-text-color);
 }
-.contacts:active {
+.contacts:focus {
   color: var(--accent-text-color);
 }
 
@@ -143,7 +143,12 @@ footer p {
 }
 
 /* ____________СТРАНИЦА ПОРТФОЛИО______________________
- /*  ______________Кнопки_______________________ */
+/* ____________Эффект текущей страницы_____________ */
+.link .current {
+  color: var(--accent-text-color);
+}
+
+/*  ______________Кнопки_______________________ */
 
 .portfolio .gray-button {
   font-weight: 500;
@@ -156,10 +161,11 @@ footer p {
 .gray-button:hover {
   color: #ffffff;
   background-color: var(--accent-text-color);
-  }
-  .gray-button:active {
+}
+.gray-button:focus {
   color: #ffffff;
   background-color: var(--accent-text-color);
+}
 
 /* __________________Примеры работ_________________ */
 .portfolio h2 {
